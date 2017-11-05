@@ -1,0 +1,95 @@
+
+#brand {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(1, 2, 2);
+    color: white;
+    justify-content: space-between;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+} 
+
+.menu-item {
+    display: flex;
+    padding: 5px;
+}
+
+a:link {
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  a:hover{
+    color:rgb(160, 158, 156);
+  }
+
+#about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(192, 189, 189);
+}
+
+section {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about_image {
+    width: 25%;
+    height: 35%;
+}
+
+#projects {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(76, 156, 202);
+}
+
+#project {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sample_work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image {
+    width: 205px;
+    height: 200px;
+}
+
+#contact_page {
+    display: flex;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(192, 189, 189);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
