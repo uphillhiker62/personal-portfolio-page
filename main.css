@@ -35,10 +35,11 @@ a:link {
 
 #about {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     padding: 2em;
-    background-color: rgb(192, 189, 189);
+    background-color: rgb(226, 226, 226);
+    align-items: center;
 }
 
 section {
@@ -49,14 +50,14 @@ section {
 }
 
 #about_image {
-    width: 25%;
-    height: 35%;
+    width: 200px;
+    padding: 20px;
+    min-width: 30%;
 }
 
 #projects {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
     padding: 2em;
     background-color: rgb(76, 156, 202);
 }
@@ -77,6 +78,16 @@ section {
     height: 200px;
 }
 
+.project-column {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.project-discription {
+    display: flex;
+    justify-content: space-around;
+}
+
 #contact_page {
     display: flex;
     align-items: center;
@@ -84,9 +95,9 @@ section {
 
 #contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 2em;
-    background-color: rgb(192, 189, 189);
+    background-color: rgb(226, 226, 226);
 }
 
 .column {
