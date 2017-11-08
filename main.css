@@ -95,10 +95,16 @@ section {
 
 #contact {
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
     padding: 2em;
     background-color: rgb(226, 226, 226);
 }
+
+/* #contact-paragraph {
+    padding-left: 2000px;
+} */
 
 .column {
     float: left;
