@@ -110,3 +110,38 @@ section {
     float: left;
     width: 50%;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+.fa-free-code-camp {
+    background: #006400;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+
