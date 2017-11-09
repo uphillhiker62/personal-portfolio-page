@@ -39,6 +39,7 @@ a:link {
     justify-content: center;
     padding: 20px;
     background-color: rgb(192, 189, 189);
+    max-width: 2000px;
 }
 
 section {
@@ -80,11 +81,6 @@ section {
 .project-column {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-}
-
-.project-discription {
-    display: flex;
     justify-content: center;
 }
 
